@@ -29,6 +29,7 @@ body {
 }
 #first-section{
 	background-color: #111;
+	color:white;
 }
 #second-section{
 	background-color: white;
@@ -36,9 +37,10 @@ body {
 
 #third-section{
 	background-color: #666;
+	color:white;
 }
 #forth-section{
-	background-color: #222;
+	background-color: white;
 }
 
 .navbar {
@@ -49,6 +51,11 @@ footer{
 	height: 100px;
 	background-color: #111;
 	color: white;
+}
+
+.page-header {
+
+   border-bottom: none; 
 }
 
 /* ==========================================================================
@@ -101,7 +108,7 @@ footer{
 #diag-section-3{
 	position:relative;
 	top:50px;
-	background-color: #222;
+	background-color: white;
 	height:200px;
 	width: 100%;
 	 -webkit-transform: skewY(-3deg);
