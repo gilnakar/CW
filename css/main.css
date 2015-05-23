@@ -3,11 +3,29 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media (max-width: 767px){
+body {
+  padding-right: 0px; 
+  padding-left: 0px; 
+}
+
+
+}
+
+
+
+
+
+
+
+
+
 .block{
-    padding: 150px 0px;   
+    padding: 60px 0px;   
 }
 #top-section{
 	background-color: white;
+
 }
 #first-section{
 	background-color: #111;
@@ -27,13 +45,77 @@
 	margin-bottom: 0;
 }
 
-.hero-unit{
-	background-color: white;
+footer{
+	height: 100px;
+	background-color: #111;
+	color: white;
 }
 
-#triplet{
-	margin-bottom: 50px;
+/* ==========================================================================
+  diagonals
+   ========================================================================== */
+
+#diag-section-top{
+	position:relative;
+	top:50px;
+	background-color: white;
+	height:100px;
+	width: 100%;
+	 -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    -o-transform: skewY(3deg);
+    transform: skewY(3deg);
+
 }
+
+
+#diag-section-1{
+	position:relative;
+	top:50px;
+	background-color: white;
+	height:200px;
+	width: 100%;
+	 -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+
+}
+
+#diag-section-2{
+	position:relative;
+	top:50px;
+	background-color: #666;
+	height:200px;
+	width: 100%;
+	 -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    -o-transform: skewY(3deg);
+    transform: skewY(3deg);
+ 	
+}
+
+#diag-section-3{
+	position:relative;
+	top:50px;
+	background-color: #222;
+	height:200px;
+	width: 100%;
+	 -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+ 	
+}
+
+
+
+
+
 
 
 
